@@ -148,6 +148,7 @@ footer p , footer a {
     header {
         width: 100vw;
         padding: 10px;
+        border: 1px solid blue;
     }
 
     header nav {
