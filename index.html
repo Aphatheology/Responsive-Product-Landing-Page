@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="watch.jpg" alt="">
+        <nav id="nav-bar">
+            <a href="#about-watch" class="nav-link">The Watch</a>
+            <a href="#watch-video" class="nav-link">Video</a>
+            <a href="#form" class="nav-link">Subscribe</a>
+        </nav>
+    </header>
+
+    <section id="about-watch">
+        <div>
+            <h1>The Perfect Watch for your various outfits</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium dicta ut provident necessitatibus, maxime minima minus fugiat, dolorem, quos exercitationem dolor sed assumenda ipsum officiis tenetur! Laudantium, impedit explicabo?</p>
+        </div>
+
+        <div>
+            <img src="watch.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="video-form">
+        <div id="watch-video">
+            <!-- https://www.youtube.com/watch?v=TT7iIVNXeiQ -->
+
+            <video width="100%" height="250" controls autoplay>
+                <source src="https://www.youtube.com/embed/fYaeVDnSK2" type="video/mp4">
+                Your browser does not support the video tag.
+                
+              </video>
+
+              <iframe width="100%" height="250"
+src="https://www.youtube.com/embed/TT7iIVNXeiQ">
+</iframe>
+        </div>
+
+        <div>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <label for="email">Enter your Email so as to receive a message when the official price is out!</label>
+                <input type="email" name="" id="email" placeholder="Enter your Email" required>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Made with LOVE by <a href="https://github.com/Aphatheology">Abdulkareem Mustapha | Aphatheology</a></p>
+    </footer>
+
+
+</body>
+</html>
