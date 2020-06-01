@@ -154,9 +154,12 @@ footer p , footer a {
     }
 
     header nav {
-        margin-left: 10px;
+        margin-left: 5px;
     }
     
+    #header nav a {
+        margin: 2px;
+    }
     #about-watch , #video-form {
         display: flex;
         flex-direction: column;
@@ -186,7 +189,7 @@ footer p , footer a {
     #about-watch div:first-child {
         width: 100%;
         margin: auto;
-        padding: 10px 25px;
+        padding: 25px;
         background-color: rgb(34, 32, 32, 0.75);
     }
 
