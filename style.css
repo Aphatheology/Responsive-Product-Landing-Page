@@ -145,6 +145,15 @@ footer p , footer a {
 }
 
 @media screen and (max-width: 750px) {
+    header {
+        width: 100vw;
+        padding: 10px;
+    }
+
+    header nav {
+        margin-left: 10px;
+    }
+    
     #about-watch , #video-form {
         display: flex;
         flex-direction: column;
